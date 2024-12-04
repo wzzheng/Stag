@@ -31,9 +31,9 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 
 ### 4D Driving Simulation:
 
-![demo](./assets/demo1.gif)&nbsp;&nbsp;![demo](./assets/demo2.gif)
+![demo](./assets/demo1.gif)![demo](./assets/demo2.gif)
 
-![demo](./assets/demo3.gif)&nbsp;&nbsp;![demo](./assets/demo4.gif)
+![demo](./assets/demo3.gif)![demo](./assets/demo4.gif)
 
 
 
