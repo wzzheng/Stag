@@ -31,7 +31,10 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 
 ### 4D Driving Simulation:
 
-![demo](./assets/demo1.gif)
+![demo](./assets/demo1.gif)&nbsp;&nbsp;![demo](./assets/demo2.gif)
+
+![demo](./assets/demo3.gif)&nbsp;&nbsp;![demo](./assets/demo4.gif)
+
 
 
 ## Overview
@@ -86,7 +89,7 @@ If you find this project helpful, please consider citing the following paper:
 ```
   @article{wang2024stag,
     title={Stag: Towards Realistic 4D Driving Simulation with Video Generation Model},
-    author={Wang, Lening and Zheng, Wenzhao and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Lu, Jiwen},
+    author={Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
     journal={arXiv preprint arXiv:},
     year={2024}
 	}
