@@ -1,6 +1,6 @@
 # Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-### [Paper](https://arxiv.org/abs/2405.20337)  | [Project Page](https://wzzheng.net/Stag) 
+### [Paper](https://arxiv.org/abs)  | [Project Page](https://wzzheng.net/Stag) 
 
 
 > Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
