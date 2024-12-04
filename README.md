@@ -5,7 +5,7 @@
 
 > Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-**[Lening Wang](https://github.com/LeningWang)**\* $^1$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$**, **[Dalong Du](https://www.phigent.ai/aboutus)**, **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)**, **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)**, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)**, **[Zhiyong Cui](https://zhiyongcui.com/)**, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)**, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** , **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)**, **[Shanghang Zhang](https://www.shanghangzhang.com/)**
+**[Lening Wang](https://github.com/LeningWang)**\* $^{1,2,5}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2,3}$, **[Dalong Du](https://www.phigent.ai/aboutus) $^{3,4}$ **, **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao) $^{3}$ **, **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1,2}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1,2}$, **[Zhiyong Cui](https://zhiyongcui.com/)**, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1,2}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{3}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{3}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{5}$
 
 $^1$ State Key Lab of Intelligent Transportation System, Beihang University, China  
 $^2$ EECS, UC Berkeley, United States  
