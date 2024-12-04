@@ -1,5 +1,5 @@
 model:
-  pretrained_checkpoint: "/home/user/Desktop/wln/diffusion/view/ViewCrafter-main/checkpoints/model_sparse.ckpt"
+  pretrained_checkpoint: "./checkpoints/model_sparse.ckpt"
   base_learning_rate: 1.0e-05
   scale_lr: False
   target: lvdm.models.ddpm3d.VIPLatentDiffusion

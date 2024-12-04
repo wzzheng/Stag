@@ -5,7 +5,7 @@
 
 > Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-**[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**, **[Wenzhao Zheng](https://wzzheng.net/)**, **[Dalong Du](https://www.phigent.ai/aboutus)**, **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)**, **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)**, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)**, **[Zhiyong Cui](https://zhiyongcui.com/)**, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)**, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** , **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)**, **[Shanghang Zhang](https://www.shanghangzhang.com/)**
+**[Lening Wang](https://github.com/LeningWang)*, [Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$, **[Dalong Du](https://www.phigent.ai/aboutus)**, **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)**, **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)**, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)**, **[Zhiyong Cui](https://zhiyongcui.com/)**, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)**, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** , **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)**, **[Shanghang Zhang](https://www.shanghangzhang.com/)**
 
 $^1$ State Key Lab of Intelligent Transportation System, Beihang University, China  
 $^2$ EECS, UC Berkeley, United States  
@@ -13,7 +13,7 @@ $^3$ Department of Automation, Tsinghua University, China
 $^4$ PhiGent Robotics  
 $^5$ State Key Laboratory of Multimedia Information Processing, School of Computer Science, Peking University, China  
 
-[Stag Project](https://wzzheng.net/Stag)  
+
 
 Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng@outlook.com](mailto:wenzhao.zheng@outlook.com)
 
@@ -42,11 +42,9 @@ Spatial-Temporal simulAtion for drivinG (Stag) enables controllable 4D autonomou
 ## Getting Started
 
 ### Installation
-1. Create a conda environment with Python version 3.8.0
+1. Create a conda environment with Python version 3.8.18
 
 2. Install all the packages in environment.yaml
-
-3. Please refer to [mmdetection3d](https://mmdetection3d.readthedocs.io/en/latest/getting_started.html#installation) about the installation of mmdetection3d
 
 
 

@@ -1,4 +1,4 @@
-name: mdrive
+name: trag
 channels:
   - https://anaconda.org/pytorch3d/pytorch3d/0.7.3/download
   - https://repo.anaconda.com/pkgs/main
@@ -229,4 +229,4 @@ dependencies:
       - yapf==0.40.2
       - yarl==1.15.2
       - zipp==3.17.0
-prefix: /home/user/.conda/envs/mdrive
+prefix: /home/user/.conda/envs/trag
