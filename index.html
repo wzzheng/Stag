@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stag: Towards Realistic 4D Driving Simulation with Video Generation Model</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+
+
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Stag: Towards Realistic 4D Driving Simulation with Video Generation Model</h1>
+ <div class="is-size-5 publication-authors">
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao">Lening Wang</a><sup>1,2,5</sup><span class="equal-contribution">*</span>,
+  </span>
+  <span class="author-block">
+    <a href="https://wzzheng.net/">Wenzhao Zheng</a><sup>2,3</sup><span class="project-leader">*†</span>,
+  </span>
+  <span class="author-block">
+    <a href="https://www.phigent.ai/aboutus">Dalong Du</a><sup>4</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao">Yunpeng Zhang</a><sup>3</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm">Yilong Ren</a><sup>1</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao">Han Jiang</a><sup>1</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://zhiyongcui.com/">Zhiyong Cui</a><sup>1</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://shi.buaa.edu.cn/09558/zh_CN/index.htm">Haiyang Yu</a><sup>1</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://www.au.tsinghua.edu.cn/info/1084/1699.htm">Jie Zhou</a><sup>3</sup>,
+  </span>
+  <span class="author-block">
+    <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Jiwen Lu</a><sup>3</sup>,
+  </span>
+  <span class="author-block">
+    <a href="https://www.shanghangzhang.com/">Shanghang Zhang</a><sup>5</sup>
+  </span>
+</div>
+
+<div class="author-affiliations">
+  <p><sup>1</sup> State Key Lab of Intelligent Transportation System, Beihang University, China</p>
+  <p><sup>2</sup> EECS, UC Berkeley, United States</p>
+  <p><sup>3</sup> Department of Automation, Tsinghua University, China</p>
+  <p><sup>4</sup> PhiGent Robotics</p>
+  <p><sup>5</sup> State Key Laboratory of Multimedia Information Processing, School of Computer Science, Peking University, China</p>
+</div>
+
+<div class="notes">
+  <p><span class="equal-contribution">*</span> Equal contribution</p>
+  <p><span class="project-leader">†</span> Project leader</p>
+</div>
+
+
+
+
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper Image. -->
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Autonomous Driving 4D Simulation</h2>
+    <div class="publication-image">
+      <!-- Image element -->
+      <img src="./static/images/fig1.png" alt="Pipeline Image" style="width: 100%; height: auto;">
+    </div>
+  </div>
+</div>
+<!--/ Paper Image. -->
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- First Video -->
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/s1.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Second Video -->
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/s2.mp4" type="video/mp4">
+      </video>
+
+      <!-- Third Video -->
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/s3.mp4" type="video/mp4">
+      </video>
+
+      <!-- Fourth Video -->
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/s4.mp4" type="video/mp4">
+      </video>
+
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">4D Driving Simulation.</span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            4D driving simulation is essential for developing realistic autonomous driving simulators. Despite advancements in current methods for generating driving scenes, significant challenges remain in view transformation and spatial-temporal dynamic modeling. To address these limitations, we propose Spatial-Temporal simulAtion for drivinG (Stag), which aims to reconstruct real-world scenes and design a controllable generative network to achieve 4D simulation. Stag constructs continuous 4D point cloud scenes using surround-view data from autonomous vehicles. It decouples spatial-temporal relationships and produces coherent keyframe videos. Additionally, Stag leverages video generation models to create lifelike, controllable 4D driving simulation videos from any perspective. To expand the range of view generation, we train vehicle motion videos based on decomposed camera poses, enhancing modeling capabilities for distant scenes. Additionally, we reconstruct vehicle camera trajectories to integrate 3D points across consecutive views, enabling comprehensive scene understanding along the temporal dimension. Following extensive multi-level scene training, Stag can simulate from any desired viewpoint and achieve deep understanding of scene evolution under static spatial-temporal conditions. Compared to existing methods, our approach shows promising performance in multi-view scene consistency, background coherence, and accuracy, and contributes to the ongoing advancements in realistic autonomous driving simulation.
+          </p> 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+
+
+<!-- Paper Image. -->
+<div class="columns">
+  <div class="column is-full">
+    <h2 class="title is-3">Pipeline</h2>
+    <div class="publication-image">
+      <!-- Image element -->
+      <img src="./static/images/fig2.png" alt="Pipeline Image" style="width: 100%; height: auto;">
+    </div>
+    <!-- Text below the image -->
+    <p class="subtitle is-5">
+      Our Stag framework is a 4D generative model for autonomous driving simulation. It reconstructs 4D scenes from point clouds and projects them into continuous, sparse keyframes. A spatial-temporal fusion framework is then used to generate simulation scenarios. Two key design aspects guide our approach: 1) We develop a method for 4D point cloud matching and keyframe reconstruction, ensuring the accurate generation of continuous, sparse keyframes that account for both vehicle motion and the need for spatial-temporal decoupling in simulation. 2) We build a spatial-temporal fusion framework that integrates surround-view information and continuous scene projection to ensure accurate simulation generation.
+    </p>
+  </div>
+</div>
+<!--/ Paper Image. -->
+
+
+
+<!-- Paper Image. -->
+<div class="columns">
+  <div class="column is-full">
+    <div class="publication-image">
+      <!-- Image element -->
+      <img src="./static/images/fig3.png" alt="Pipeline Image" style="width: 100%; height: auto;">
+    </div>
+    <!-- Text below the image -->
+    <p class="subtitle is-5">
+      The Stag training framework pipeline is designed in two stages. In the time-focused stage, we use even keyframes from a single viewpoint to generate a 4D point cloud, which is then projected with odd keyframe parameters as conditions, with the odd keyframes serving as labels for training. In the spatial-focused stage, surround-view information is incorporated to extract inter-image features from the surrounding viewpoints, followed by the training of the spatial-temporal block.
+    </p>
+  </div>
+</div>
+<!--/ Paper Image. -->
+
+<!-- Paper Image. -->
+<div class="columns">
+  <div class="column is-full">
+    <h2 class="title is-3">Experiments</h2>
+    <div class="publication-image">
+      <!-- Image element -->
+      <img src="./static/images/fig5.png" alt="Pipeline Image" style="width: 100%; height: auto;">
+    </div>
+    <!-- Text below the image -->
+    <p class="subtitle is-5">
+      Qualitative comparison on the Waymo-Street Datasets. The results show that our method outperforms existing approaches in scene reconstruction.
+    </p>
+  </div>
+</div>
+<!--/ Paper Image. -->
+
+
+<!-- Paper Image. -->
+<div class="columns">
+  <div class="column is-full">
+    <div class="publication-image">
+      <!-- Image element -->
+      <img src="./static/images/fig4.png" alt="Pipeline Image" style="width: 100%; height: auto;">
+    </div>
+    <!-- Text below the image -->
+    <p class="subtitle is-5">
+      Quantitative comparison of our model with the 3DGS method on both reconstruction and novel view synthesis (NVS). Performance is evaluated using the Waymo-NOTR dataset, with 'PSNR*' and 'SSIM*' referring to metrics for dynamic objects, where ENRF refers to EmerNeRF and S3Gaussian refers to S3Gaussian. The best results are highlighted in pink, and the second best in blue.
+    </p>
+  </div>
+</div>
+<!--/ Paper Image. -->
+
+<!-- Concurrent Work. -->
+<div class="columns is-centered">
+  <div class="column is-full-width">
+    <h2 class="title is-3">Related Links</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        Our code is based on <a href="https://github.com/Drexubery/ViewCrafter">ViewCrafter</a> and <a href="https://github.com/cure-lab/MagicDrive">MagicDrive</a>.
+      </p>
+      <p>
+        Also, thanks to these excellent open-sourced repositories:
+        <a href="https://github.com/OpenDriveLab/Vista">Vista</a> and <a href="https://github.com/nnanhuang/S3Gaussian">S<sup>3</sup>Gaussian</a>.
+      </p>
+    </div>
+  </div>
+</div>
+<!--/ Concurrent Work. -->
+
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{wang2024stag,
+  author    = {Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
+  title     = {Stag: Towards Realistic 4D Driving Simulation with Video Generation Model},
+  journal   = {arXiv preprint arXiv},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
