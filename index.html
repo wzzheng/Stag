@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Stag: Towards Realistic 4D Driving Simulation with Video Generation Model</title>
+  <title>Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -63,7 +63,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Stag: Towards Realistic 4D Driving Simulation with Video Generation Model</h1>
+          <h1 class="title is-1 publication-title">Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model</h1>
  <div class="is-size-5 publication-authors">
   <span class="author-block">
     <a href="https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao">Lening Wang</a><sup>1,2,5</sup><span class="equal-contribution">*</span>,
@@ -75,7 +75,7 @@
     <a href="https://www.phigent.ai/aboutus">Dalong Du</a><sup>4</sup>,
   </span>
   <span class="author-block">
-    <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao">Yunpeng Zhang</a><sup>3</sup>,
+    <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao">Yunpeng Zhang</a><sup>4</sup>,
   </span>
   <span class="author-block">
     <a href="https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm">Yilong Ren</a><sup>1</sup>,
@@ -172,29 +172,26 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Demo 1: Freeze Time</span>
+
       <!-- First Video -->
       <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/s1.mp4" type="video/mp4">
-      </video>
-      
+      </video>      
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Demo 2: Freeze View</span>
       <!-- Second Video -->
       <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/s2.mp4" type="video/mp4">
       </video>
-
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Demo 3: Multi-View</span>
       <!-- Third Video -->
       <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/s3.mp4" type="video/mp4">
       </video>
 
-      <!-- Fourth Video -->
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/s4.mp4" type="video/mp4">
-      </video>
-
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">4D Driving Simulation.</span>
-      </h2>
     </div>
   </div>
 </section>
@@ -211,7 +208,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            4D driving simulation is essential for developing realistic autonomous driving simulators. Despite advancements in current methods for generating driving scenes, significant challenges remain in view transformation and spatial-temporal dynamic modeling. To address these limitations, we propose Spatial-Temporal simulAtion for drivinG (Stag), which aims to reconstruct real-world scenes and design a controllable generative network to achieve 4D simulation. Stag constructs continuous 4D point cloud scenes using surround-view data from autonomous vehicles. It decouples spatial-temporal relationships and produces coherent keyframe videos. Additionally, Stag leverages video generation models to create lifelike, controllable 4D driving simulation videos from any perspective. To expand the range of view generation, we train vehicle motion videos based on decomposed camera poses, enhancing modeling capabilities for distant scenes. Additionally, we reconstruct vehicle camera trajectories to integrate 3D points across consecutive views, enabling comprehensive scene understanding along the temporal dimension. Following extensive multi-level scene training, Stag can simulate from any desired viewpoint and achieve deep understanding of scene evolution under static spatial-temporal conditions. Compared to existing methods, our approach shows promising performance in multi-view scene consistency, background coherence, and accuracy, and contributes to the ongoing advancements in realistic autonomous driving simulation.
+            4D driving simulation is essential for developing realistic autonomous driving simulators. Despite advancements in current methods for generating driving scenes, significant challenges remain in view transformation and spatial-temporal dynamic modeling. To address these limitations, we propose Spatial-Temporal simulAtion for drivinG (Stag-1), which aims to reconstruct real-world scenes and design a controllable generative network to achieve 4D simulation. Stag-1 constructs continuous 4D point cloud scenes using surround-view data from autonomous vehicles. It decouples spatial-temporal relationships and produces coherent keyframe videos. Additionally, Stag-1 leverages video generation models to create lifelike, controllable 4D driving simulation videos from any perspective. To expand the range of view generation, we train vehicle motion videos based on decomposed camera poses, enhancing modeling capabilities for distant scenes. Additionally, we reconstruct vehicle camera trajectories to integrate 3D points across consecutive views, enabling comprehensive scene understanding along the temporal dimension. Following extensive multi-level scene training, Stag-1 can simulate from any desired viewpoint and achieve deep understanding of scene evolution under static spatial-temporal conditions. Compared to existing methods, our approach shows promising performance in multi-view scene consistency, background coherence, and accuracy, and contributes to the ongoing advancements in realistic autonomous driving simulation.
           </p> 
           </p>
         </div>
@@ -231,7 +228,7 @@
     </div>
     <!-- Text below the image -->
     <p class="subtitle is-5">
-      Our Stag framework is a 4D generative model for autonomous driving simulation. It reconstructs 4D scenes from point clouds and projects them into continuous, sparse keyframes. A spatial-temporal fusion framework is then used to generate simulation scenarios. Two key design aspects guide our approach: 1) We develop a method for 4D point cloud matching and keyframe reconstruction, ensuring the accurate generation of continuous, sparse keyframes that account for both vehicle motion and the need for spatial-temporal decoupling in simulation. 2) We build a spatial-temporal fusion framework that integrates surround-view information and continuous scene projection to ensure accurate simulation generation.
+      Our Stag-1 framework is a 4D generative model for autonomous driving simulation. It reconstructs 4D scenes from point clouds and projects them into continuous, sparse keyframes. A spatial-temporal fusion framework is then used to generate simulation scenarios. Two key design aspects guide our approach: 1) We develop a method for 4D point cloud matching and keyframe reconstruction, ensuring the accurate generation of continuous, sparse keyframes that account for both vehicle motion and the need for spatial-temporal decoupling in simulation. 2) We build a spatial-temporal fusion framework that integrates surround-view information and continuous scene projection to ensure accurate simulation generation.
     </p>
   </div>
 </div>
@@ -248,7 +245,7 @@
     </div>
     <!-- Text below the image -->
     <p class="subtitle is-5">
-      The Stag training framework pipeline is designed in two stages. In the time-focused stage, we use even keyframes from a single viewpoint to generate a 4D point cloud, which is then projected with odd keyframe parameters as conditions, with the odd keyframes serving as labels for training. In the spatial-focused stage, surround-view information is incorporated to extract inter-image features from the surrounding viewpoints, followed by the training of the spatial-temporal block.
+      The Stag-1 training framework pipeline is designed in two stages. In the time-focused stage, we use even keyframes from a single viewpoint to generate a 4D point cloud, which is then projected with odd keyframe parameters as conditions, with the odd keyframes serving as labels for training. In the spatial-focused stage, surround-view information is incorporated to extract inter-image features from the surrounding viewpoints, followed by the training of the spatial-temporal block.
     </p>
   </div>
 </div>
@@ -312,9 +309,9 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{wang2024stag,
+    <pre><code>@article{wang2024stag-1,
   author    = {Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
-  title     = {Stag: Towards Realistic 4D Driving Simulation with Video Generation Model},
+  title     = {Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model},
   journal   = {arXiv preprint arXiv},
   year      = {2024},
 }</code></pre>
