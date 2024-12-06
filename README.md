@@ -1,11 +1,11 @@
-# Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
+# Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
 
 ### [Paper](https://arxiv.org/abs)  | [Project Page](https://wzzheng.net/Stag) 
 
 
-> Stag: Towards Realistic 4D Driving Simulation with Video Generation Model
+> Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-**[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**\* $^{1,2,5}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2,3}$, **[Dalong Du](https://www.phigent.ai/aboutus)** $^{4}$ , **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)** $^{3}$ , **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1}$, **[Zhiyong Cui](https://zhiyongcui.com/)** $^{1}$, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{3}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{3}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{5}$
+**[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**\* $^{1,2,5}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2,3}$, **[Dalong Du](https://www.phigent.ai/aboutus)** $^{4}$ , **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)** $^{4}$ , **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1}$, **[Zhiyong Cui](https://zhiyongcui.com/)** $^{1}$, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{3}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{3}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{5}$
 
 $^1$ State Key Lab of Intelligent Transportation System, Beihang University, China  
 $^2$ EECS, UC Berkeley, United States  
@@ -31,21 +31,28 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 
 ### 4D Driving Simulation:
 
-![demo](./assets/demo1.gif)![demo](./assets/demo2.gif)
+![demo](./assets/demo1.gif)
+**Demo 1: Freeze Time**
 
-![demo](./assets/demo3.gif)![demo](./assets/demo4.gif)
+![demo](./assets/demo2.gif)
+**Demo 2: Freeze View**
+
+![demo](./assets/demo3.gif)
+**Demo 3: Multi-View**
+
+
 
 
 
 ## Overview
 ![overview](./assets/fig1.png)
 
-Spatial-Temporal simulAtion for drivinG (Stag) enables controllable 4D autonomous driving simulation with spatial-temporal decoupling. Stag can decompose the original spatial-temporal relationships of real-world scenes to enable controllable autonomous driving simulation. This allows for adjustments such as fixing the camera viewpoint while advancing time or translating and rotating space while keeping time stationary. Additionally, Stag maintains synchronized variations across six panoramic views.
+Spatial-Temporal simulAtion for drivinG (Stag-1) enables controllable 4D autonomous driving simulation with spatial-temporal decoupling. Stag can decompose the original spatial-temporal relationships of real-world scenes to enable controllable autonomous driving simulation. This allows for adjustments such as fixing the camera viewpoint while advancing time or translating and rotating space while keeping time stationary. Additionally, Stag maintains synchronized variations across six panoramic views.
 
 
 ![overview](./assets/fig2.png)
 
-Our Stag framework is a 4D generative model for autonomous driving simulation. It reconstructs 4D scenes from point clouds and projects them into continuous, sparse keyframes. A spatial-temporal fusion framework is then used to generate simulation scenarios. Two key design aspects guide our approach: 1) We develop a method for 4D point cloud matching and keyframe reconstruction, ensuring the accurate generation of continuous, sparse keyframes that account for both vehicle motion and the need for spatial-temporal decoupling in simulation. 2) We build a spatial-temporal fusion framework that integrates surround-view information and continuous scene projection to ensure accurate simulation generation.
+Our Stag-1 framework is a 4D generative model for autonomous driving simulation. It reconstructs 4D scenes from point clouds and projects them into continuous, sparse keyframes. A spatial-temporal fusion framework is then used to generate simulation scenarios. Two key design aspects guide our approach: 1) We develop a method for 4D point cloud matching and keyframe reconstruction, ensuring the accurate generation of continuous, sparse keyframes that account for both vehicle motion and the need for spatial-temporal decoupling in simulation. 2) We build a spatial-temporal fusion framework that integrates surround-view information and continuous scene projection to ensure accurate simulation generation.
 ## Getting Started
 
 ### Installation
@@ -88,7 +95,7 @@ Also thanks to these excellent open-sourced repos:
 If you find this project helpful, please consider citing the following paper:
 ```
   @article{wang2024stag,
-    title={Stag: Towards Realistic 4D Driving Simulation with Video Generation Model},
+    title={Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model},
     author={Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
     journal={arXiv preprint arXiv:},
     year={2024}
