@@ -32,13 +32,13 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 ### 4D Driving Simulation:
 
 ![demo](./assets/demo1.gif)
-**Demo 1: Freeze Time**
+**Demo 1: Freeze Time.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag). 
 
 ![demo](./assets/demo2.gif)
-**Demo 2: Freeze View**
+**Demo 2: Freeze View.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag).
 
 ![demo](./assets/demo3.gif)
-**Demo 3: Multi-View**
+**Demo 3: Multi-View.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag).
 
 
 
@@ -47,7 +47,7 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 ## Overview
 ![overview](./assets/fig1.png)
 
-Spatial-Temporal simulAtion for drivinG (Stag-1) enables controllable 4D autonomous driving simulation with spatial-temporal decoupling. Stag can decompose the original spatial-temporal relationships of real-world scenes to enable controllable autonomous driving simulation. This allows for adjustments such as fixing the camera viewpoint while advancing time or translating and rotating space while keeping time stationary. Additionally, Stag maintains synchronized variations across six panoramic views.
+Spatial-Temporal simulAtion for drivinG (Stag-1) enables controllable 4D autonomous driving simulation with spatial-temporal decoupling. Stag-1 can decompose the original spatial-temporal relationships of real-world scenes to enable controllable autonomous driving simulation. This allows for adjustments such as fixing the camera viewpoint while advancing time or translating and rotating space while keeping time stationary. Additionally, Stag-1 maintains synchronized variations across six panoramic views.
 
 
 ![overview](./assets/fig2.png)
@@ -94,7 +94,7 @@ Also thanks to these excellent open-sourced repos:
 
 If you find this project helpful, please consider citing the following paper:
 ```
-  @article{wang2024stag,
+  @article{wang2024stag-1,
     title={Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model},
     author={Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
     journal={arXiv preprint arXiv:},
