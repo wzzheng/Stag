@@ -5,13 +5,12 @@
 
 > Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-**[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**\* $^{1,2,5}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2,3}$, **[Dalong Du](https://www.phigent.ai/aboutus)** $^{4}$ , **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)** $^{4}$ , **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1}$, **[Zhiyong Cui](https://zhiyongcui.com/)** $^{1}$, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{3}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{3}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{5}$
+**[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**\* $^{1,2,4}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2}$, **[Dalong Du](https://www.phigent.ai/aboutus)** $^{3}$ , **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)** $^{3}$ , **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1}$, **[Zhiyong Cui](https://zhiyongcui.com/)** $^{1}$, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{2}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{2}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{4}$
 
-$^1$ State Key Lab of Intelligent Transportation System, Beihang University, China  
-$^2$ EECS, UC Berkeley, United States  
-$^3$ Department of Automation, Tsinghua University, China  
-$^4$ PhiGent Robotics  
-$^5$ State Key Laboratory of Multimedia Information Processing, School of Computer Science, Peking University, China  
+$^1$ Beihang University, China  
+$^2$ Tsinghua University, China  
+$^3$ PhiGent Robotics  
+$^4$ Peking University, China  
 
 
 
