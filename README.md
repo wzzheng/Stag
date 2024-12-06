@@ -28,17 +28,21 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 
 
 ## Demo
+For a clearer view, please check the [Project Page](https://wzzheng.net/Stag). 
 
 ### 4D Driving Simulation:
+**Demo 1: Freeze Time.** 
 
 ![demo](./assets/demo1.gif)
-**Demo 1: Freeze Time.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag). 
+
+**Demo 2: Freeze View.** 
 
 ![demo](./assets/demo2.gif)
-**Demo 2: Freeze View.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag).
+
+**Demo 3: Multi-View.**
 
 ![demo](./assets/demo3.gif)
-**Demo 3: Multi-View.** For a clearer view, please check the [Project Page](https://wzzheng.net/Stag).
+
 
 
 
