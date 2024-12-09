@@ -7,10 +7,7 @@
 
 **[Lening Wang](https://scholar.google.com/citations?user=obCtm2UAAAAJ&hl=en&oi=ao)**\* $^{1,2,4}$, **[Wenzhao Zheng](https://wzzheng.net/)\* $\dagger$** $^{2}$, **[Dalong Du](https://www.phigent.ai/aboutus)** $^{3}$ , **[Yunpeng Zhang](https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=en&oi=ao)** $^{3}$ , **[Yilong Ren](https://shi.buaa.edu.cn/renyilong/zh_CN/index.htm)** $^{1}$, **[Han Jiang](https://scholar.google.com/citations?user=d0WJTQgAAAAJ&hl=zh-CN&oi=ao)** $^{1}$, **[Zhiyong Cui](https://zhiyongcui.com/)** $^{1}$, **[Haiyang Yu](https://shi.buaa.edu.cn/09558/zh_CN/index.htm)** $^{1}$, **[Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm)** $^{2}$, **[Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)** $^{2}$, **[Shanghang Zhang](https://www.shanghangzhang.com/)** $^{4}$
 
-$^1$ Beihang University, China  
-$^2$ Tsinghua University, China  
-$^3$ PhiGent Robotics  
-$^4$ Peking University, China  
+$^1$ Beihang University $^2$ Tsinghua University $^3$ PhiGent Robotics $^4$ Peking University
 
 
 
@@ -22,8 +19,8 @@ Contact: [leningwang@buaa.edu.cn](mailto:leningwang@buaa.edu.cn), [wenzhao.zheng
 
 ## News
 
-- **[2024/12/4]** Part of the code release.
-- **[2024/12/5]** Paper released on [arXiv](https://arxiv.org/abs/).
+- **[2024/12/9]** Initial code release.
+- **[2024/12/9]** Paper released on [arXiv](https://arxiv.org/abs/2412.05280).
 
 
 ## Demo
