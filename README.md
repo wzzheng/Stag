@@ -1,6 +1,6 @@
 # Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
 
-### [Paper](https://arxiv.org/abs)  | [Project Page](https://wzzheng.net/Stag) 
+### [Paper](https://arxiv.org/abs/2412.05280)  | [Project Page](https://wzzheng.net/Stag) 
 
 
 > Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
@@ -100,7 +100,7 @@ If you find this project helpful, please consider citing the following paper:
   @article{wang2024stag-1,
     title={Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model},
     author={Wang, Lening and Zheng, Wenzhao and Du, Dalong and Zhang, Yunpeng and Ren, Yilong and Jiang, Han and Cui, Zhiyong and Yu, Haiyang and Zhou, Jie and Lu, Jiwen and Zhang, Shanghang},
-    journal={arXiv preprint arXiv:},
+    journal={arXiv preprint arXiv:2412.05280},
     year={2024}
 	}
 ```
