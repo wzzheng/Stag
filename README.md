@@ -1,3 +1,5 @@
+
+
 # Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model
 
 Check out our [Large Driving Model](https://github.com/wzzheng/LDM/) Series! 
@@ -44,7 +46,6 @@ For a clearer view, please check the [Project Page](https://wzzheng.net/Stag).
 
 
 
-
 ## Overview
 ![overview](./assets/fig1.png)
 
@@ -75,6 +76,7 @@ We prepare the nuScenes dataset similar to [MagicDrive](https://github.com/cure-
     ├── sweeps
     ├── v1.0-mini
     └── v1.0-trainval
+    ```
 
    
    
